@@ -25,6 +25,7 @@
 
             .Aligner-item {
               max-width: 50%;
+              text-align: center;
             }
 
             .Aligner-item--top {
@@ -34,10 +35,14 @@
             .Aligner-item--bottom {
               align-self: flex-end;
             }
+
             span.name {
                 font-weight: 500;
                 font-size: 16px;
                 letter-spacing: 0.5px;
+                display: block;
+                text-align: center;
+                margin-top: 10px;
             }
         </style>
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
@@ -48,7 +53,10 @@
     <body>
     
     <div class="Aligner">
-      <div class="Aligner-item"><span class="name">charles denault</span></div>
+        <div class="Aligner-item">
+            <img class="img-circle" src="img/charles_denault_headshot.jpg" alt="charles denault photo" width="150">
+            <span class="name">charles denault</span>
+        </div>
     </div>
 
       <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
